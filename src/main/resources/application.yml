@@ -1,0 +1,20 @@
+server:
+  port: 18090
+  context-path: /
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.200.104:3306/cyber
+    username: root
+    password: nhapis@123!@#
+    tomcat:
+      initial-size: 5
+      max-active: 30
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  messages:
+    basename: i18n/messages
+    nhapisname: config/nhapis/messages
+    nhapisname: config/nhapis/messages

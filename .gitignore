@@ -1,0 +1,20 @@
+##----------idea----------
+*.iml
+*.class
+.idea/
+*.ipr
+*.iws
+out/
+runlib/
+classes/
+target/
+
+##---------- nhapis ----------
+logs/
+tmp/
+
+##----------Other----------
+# osx
+*~
+.DS_Store
+gradle.properties
